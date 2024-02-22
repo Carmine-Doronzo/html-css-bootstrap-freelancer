@@ -19,3 +19,7 @@ input{
 .debug .bg-green{
     background-color: green;
 }
+
+.bg-tomato{
+    background-color: tomato;
+}
