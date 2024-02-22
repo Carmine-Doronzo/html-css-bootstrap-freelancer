@@ -7,6 +7,10 @@ a{
     text-decoration: none;
 }
 
+input{
+    border: none;
+}
+
 /* DEBUG */
 .debug .bg-blue{
     background-color: blue;
