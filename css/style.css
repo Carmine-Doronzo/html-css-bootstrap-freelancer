@@ -1,0 +1,13 @@
+/* Reset */
+ul,ol,menu{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* DEBUG */
+.debug .bg-blue{
+    background-color: blue;
+}
