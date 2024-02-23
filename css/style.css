@@ -1,4 +1,8 @@
 /* Reset */
+*{
+    padding: 0;
+    margin: 0;
+}
 ul,ol,menu{
     list-style: none;
 }
@@ -10,10 +14,12 @@ a{
 
 input{
     border: none;
+    outline: none;
 }
 
 textarea{
     border:none;
+    outline: none;
 }
 /* background color custom */
 
@@ -43,18 +49,10 @@ textarea{
 
 /* utility */
 
-.about p{
-    
-    column-count: 1;
-}
 
-footer i{
-    width: 10px;
-    height: 10px;
-    padding: 10px;
-    
-    border:1px solid white;
-    border-radius: 50px;
+.line hr{
+    width: 100px;
+  
 }
 
 
@@ -62,10 +60,4 @@ footer i{
 
 
 
-/* media query custom */
 
-@media (min-width:768px){
-    .about p{
-        column-count: 2;
-    }
-}
