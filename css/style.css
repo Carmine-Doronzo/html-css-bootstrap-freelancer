@@ -50,12 +50,29 @@ textarea{
 /* utility */
 
 
-.line hr{
-    width: 100px;
-  
+
+
+.star{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
+.star.white::before,.star.white::after{
+    content: "";
+    border-bottom:5px solid white;
+    width: 100px;
+    display: block;
+    border-radius: 5px;
+}
 
+.star.black::before,.star.black::after{
+    content: "";
+    border-bottom:5px solid black;
+    width: 100px;
+    display: block;
+    border-radius: 5px;
+}
 
 
 
