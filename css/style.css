@@ -5,21 +5,59 @@ ul,ol,menu{
 
 a{
     text-decoration: none;
+    color: currentColor;
 }
 
 input{
     border: none;
 }
 
-/* DEBUG */
-.debug .bg-blue{
-    background-color: blue;
+/* background color custom */
+
+.bg-blue{
+    background-color: #2c3e50;
 }
 
-.debug .bg-green{
-    background-color: green;
+.bg-green{
+    background-color: #1abc9c;
 }
 
-.bg-tomato{
-    background-color: tomato;
+
+
+.bg-blue-lt{
+   background-color:  #3a546d;
+}
+
+/* font color custom */
+
+.nav-bar,.hero,.about,footer{
+    color: white;
+}
+
+.my-font__green{
+    color:  #1abc9c;
+}
+
+/* utility */
+
+.about p{
+    
+    column-count: 1;
+}
+
+footer i{
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    
+    border:1px solid white;
+    border-radius: 50px;
+}
+
+/* media query custom */
+
+@media (min-width:768px){
+    .about p{
+        column-count: 2;
+    }
 }
