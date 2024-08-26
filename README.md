@@ -1,0 +1,1 @@
+In questo progetto applico le nozioni di Bootstrap imparate a lezione.
